@@ -14,7 +14,7 @@ class player:
         y = 125
 
 while True:
-    for event in pygame.event.get():
+    for event in pygame.event:
         if event.type == pygame.QUIT:
             pygame.quit
 
