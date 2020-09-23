@@ -1,10 +1,10 @@
 import pygame
-import player.py
+import player
 
 # Initialization
 pygame.init()
 
-window = pygame.display.set_mode((500, 250))
+window = pygame.display.set_mode((1500, 1250))
 
 pygame.display.set_caption("Divel, a dungeon crawler written in python")
 
@@ -13,8 +13,10 @@ class player:
         x = 250
         y = 125
 
-#while game_running:
-#   blah blah code stuff
+while True:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            pygame.quit
 
 # De-Initialization
 pygame.quit()
