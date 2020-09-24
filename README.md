@@ -9,4 +9,4 @@ Divel, a rougelike rpg in python, using pygame
 ## Coders ##
 * [haovi](https://github.com/haovipaws) (haovi#9721 on discord)
 * [hamblingreen](https://github.com/hamblingreen)
-* [oregone1](https://github.com/oregone1)
+* [oregone1](https://github.com/oregone1) (justsomelasagna#0847)
