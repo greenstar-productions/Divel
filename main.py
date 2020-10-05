@@ -19,6 +19,11 @@ def main_menu():
                 game == False
                 sys.exit()
 
-main_menu()
 # De-Initialization
-pygame.quit()
+    pygame.quit()
+
+def main():
+    main_menu()
+
+if __name__ == '__main__':
+    main()
