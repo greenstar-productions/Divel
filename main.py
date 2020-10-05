@@ -6,6 +6,7 @@ import player
 pygame.init()
 clock = pygame.time.Clock()
 window = pygame.display.set_mode((1500, 800))
+font = pygame.font.Font(Inter.ttf, 15)
 
 pygame.display.set_caption("Divel, a dungeon crawler written in python")
 
