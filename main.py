@@ -22,7 +22,8 @@ pygame.display.set_caption("Divel, a dungeon crawler written in python")
 game = True
 def main_menu():
     while game:
-        # button stuff ane things
+        window.fill((0, 0, 0))
+        draw_text("Main Menu", font, (255, 255, 255), window, 20, 20)
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 game == False
